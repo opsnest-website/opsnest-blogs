@@ -19,12 +19,6 @@ cover: "/blog/assets/devops_seamless.svg"
 
 *The magic behind smooth app updates and unbreakable services.*
 
-# Local
-
-![DevOps illustration](/assets/devops_seamless.svg)
-
-# Web
-
 ![DevOps illustration](/blog/assets/devops_seamless.svg)
 
 ## What Is DevOps?

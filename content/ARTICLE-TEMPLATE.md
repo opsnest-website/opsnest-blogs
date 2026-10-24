@@ -9,7 +9,7 @@ category: "DevOps"
 tags:
   - Linux
   - Automation
-# Optional: cover: "/images/your-cover.webp"
+# Optional: cover: "/images/your-cover.webp" "/blog/assets/your-cover.svg"
 # Set true to hide a draft from the published listing.
 draft: true
 ---
