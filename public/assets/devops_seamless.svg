@@ -1,0 +1,61 @@
+<svg width="1000" height="500" viewBox="0 0 1000 500" xmlns="http://www.w3.org/2000/svg"
+     style="font-family: 'Segoe UI', sans-serif; background-color: #f4faff">
+
+  <!-- Title -->
+  <text x="500" y="50" text-anchor="middle" font-size="28" font-weight="bold" fill="#003c58">
+    DevOps: The Invisible Force Behind Seamless Tech
+  </text>
+
+  <!-- Cloud Icons -->
+  <g fill="#b3e5fc" opacity="0.5">
+    <ellipse cx="150" cy="100" rx="50" ry="30"/>
+    <ellipse cx="850" cy="100" rx="60" ry="35"/>
+    <ellipse cx="500" cy="80" rx="70" ry="40"/>
+  </g>
+
+  <!-- Dev Team (left) -->
+  <g>
+    <rect x="100" y="200" width="120" height="120" rx="10" fill="#64b5f6"/>
+    <text x="160" y="265" text-anchor="middle" font-size="16" fill="#fff">Dev</text>
+  </g>
+
+  <!-- Ops Team (right) -->
+  <g>
+    <rect x="780" y="200" width="120" height="120" rx="10" fill="#81c784"/>
+    <text x="840" y="265" text-anchor="middle" font-size="16" fill="#fff">Ops</text>
+  </g>
+
+  <!-- Conveyor / Pipeline -->
+  <g>
+    <rect x="250" y="240" width="500" height="40" rx="10" fill="#cfd8dc"/>
+    <circle cx="300" cy="260" r="10" fill="#607d8b"/>
+    <circle cx="400" cy="260" r="10" fill="#607d8b"/>
+    <circle cx="500" cy="260" r="10" fill="#607d8b"/>
+    <circle cx="600" cy="260" r="10" fill="#607d8b"/>
+    <circle cx="700" cy="260" r="10" fill="#607d8b"/>
+  </g>
+
+  <!-- Arrows showing flow -->
+  <g stroke="#0288d1" stroke-width="2" fill="none">
+    <line x1="220" y1="260" x2="250" y2="260" marker-end="url(#arrow)"/>
+    <line x1="750" y1="260" x2="780" y2="260" marker-end="url(#arrow)"/>
+  </g>
+
+  <!-- Invisible glue (bridge text) -->
+  <text x="500" y="320" text-anchor="middle" font-size="16" fill="#666">
+    Collaboration • Automation • Monitoring • Continuous Delivery
+  </text>
+
+  <!-- Footer tags -->
+  <text x="500" y="470" text-anchor="middle" font-size="14" fill="#999">
+    dev + ops · pipelines · infrastructure · reliability · culture
+  </text>
+
+  <!-- Arrowhead Definition -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#0288d1"/>
+    </marker>
+  </defs>
+
+</svg>
